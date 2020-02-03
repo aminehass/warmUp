@@ -5,6 +5,7 @@
 
 // your code is here
 
+<<<<<<< HEAD
 var LastName = Mimouni
 var FirstName = Yosri
 
@@ -29,3 +30,6 @@ Myage = 2020 - 1996
 function lag(age) {
     return (age * 365.25 * 24 * 60 * 60);
 }
+=======
+
+>>>>>>> 859ddc9823913e0aa13e586030e1ab80042e292f
