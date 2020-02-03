@@ -6,6 +6,7 @@
 // your code is here
 
 
+<<<<<<< HEAD
 //Exercise 1
 var firstName="Omar"
 var lastName="Yakoubi"
@@ -34,3 +35,5 @@ return (average)
 function ageInSeconds(age){
 	return (age*365.25*24*60*60)
 } 
+=======
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
