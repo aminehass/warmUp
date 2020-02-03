@@ -8,6 +8,7 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+<<<<<<< HEAD
 function  fullName(firstName, lastName){
     return firstName+" "+lastName;
 }
@@ -28,3 +29,7 @@ function averageOfAge (array){
 function ageInSecond(age){
     return "Your age is "+(age*365**86400+ Math.floor(age/4)*86400) +" seconds";
 }
+=======
+
+
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
