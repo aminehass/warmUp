@@ -5,6 +5,7 @@
 
 // your code is here
 
+<<<<<<< HEAD
 //=========== 1 ============
 
 var partner = "wala" + "  " + "abdaoui";
@@ -38,3 +39,6 @@ function average (array){
  }
 
  /////////
+=======
+
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
