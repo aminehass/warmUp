@@ -6,6 +6,7 @@
 // your code is here
 
 
+<<<<<<< HEAD
 // 1-using + operator combine your partner first and last name .
 function combine(){
     return "Ahmad" + "Addeb";
@@ -40,3 +41,5 @@ function yearseconds(age,yearofbirth, dayafteryourbirthday){
       
 }
 
+=======
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
