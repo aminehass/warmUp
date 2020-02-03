@@ -6,6 +6,7 @@
 // your code is here
 
 
+<<<<<<< HEAD
 
 //1
 var firstName = "Houssem Eddine";
@@ -46,3 +47,5 @@ ageInSeconds = x * ageInYears;
 console.log(ageInSeconds)
 
 
+=======
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
