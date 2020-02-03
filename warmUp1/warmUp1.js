@@ -4,6 +4,7 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+<<<<<<< HEAD
 //======================================================
 var partner = 'Ali'+ ' soudani'
 //========================================================
@@ -43,3 +44,7 @@ function age (bday, bmonth , byear, todayd, todaym, todayy){
 }
 // my age in seconds is 927331200. note that this computation soes not into account if the year is 365 or 366. it is based only on the base of 365 and the month is 30 day.
 //1 common year = 365 days = (365 days) × (24 hours/day) × (3600 seconds/hour) = 31536000 seconds
+=======
+
+
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
