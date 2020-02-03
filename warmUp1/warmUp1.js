@@ -4,6 +4,7 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+<<<<<<< HEAD
 function fullName(firstName,lastName){
 
 console.log(firstName+' '+lastName);}
@@ -41,3 +42,7 @@ return ay+am+ad+ah;
 }
 
 // then i used this function to calculate my age 29 in seconds, ageSecond(29,5,17,18)=916509600
+=======
+
+
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
