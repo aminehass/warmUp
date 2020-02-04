@@ -3,6 +3,7 @@
 // 3-calculate the average age of the follwing ages [13,14,13,15,16,17,19,13,16,15]
 // 4-calculate your age in seconds.
 
+<<<<<<< HEAD
 
 
 var firstName="Ghazi"; var lastName="Turki";
@@ -27,3 +28,8 @@ return result/array.length
 function(myAge) {
 return 40*356*24*360
 }
+=======
+// your code is here
+
+
+>>>>>>> 90a5f936b59ec5446fe179b38c64a8d4deb9ce77
