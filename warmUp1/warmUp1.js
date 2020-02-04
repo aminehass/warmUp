@@ -4,6 +4,7 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+<<<<<<< HEAD
 //////////////////////////////////  1
 function partner(firstName, lastName){
     return(firstName+' '+lastName)
@@ -52,3 +53,7 @@ function ages(age,month,day){
 
     return age*365*24*60*60+m
 }*///
+=======
+
+
+>>>>>>> c07720253c870302a2825e47eeb180a082689769
