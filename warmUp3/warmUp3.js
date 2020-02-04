@@ -2,6 +2,12 @@
 // - takes 2 arguments, both numbers.
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
+function greaternum (x,y){
+    if (x<y){
+        console.log ("The greater number of" (x) "and" (y) "is" (y))
+    }; else console.log ( "The greater number of" (x) "and" (y) "is" (x))
+}
+
 
 
 
@@ -9,7 +15,15 @@
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
-
+function iseven(num1,num2){
+    var i=0
+    for(i>=num1;i<=num2; i++){
+        if (i%2===1){
+             i===[]
+            }
+    }
+     return [i]
+}
 
 //3) write a function named sum that 
 // - Use a while loop to add up the numbers from x to y.
