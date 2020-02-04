@@ -16,13 +16,13 @@ function greaternum (x,y){
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 function iseven(num1,num2){
-    var i=0
-    for(i>=num1;i<=num2; i++){
-        if (i%2===1){
-             i===[]
+    var arr=[]
+    for(var i=num1;i<=num2; i++){
+        if (i%2===0){
+             arr.push (i)
             }
     }
-     return [i]
+     return arr 
 }
 
 //3) write a function named sum that 
