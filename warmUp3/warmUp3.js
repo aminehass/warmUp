@@ -3,6 +3,16 @@
 // - returns whichever number is the greater (higher) number.
 // ex greaterNum(5, 10) => "The greater number of 5 and 10 is 10."
 
+function greaterNum(num1, num2) {
+    if (num1>num2) {
+        return  "The greater number of " + num1 + " and " + num2 + " is " + num1;
+    }
+    else if (num2>num1) {
+        return  "The greater number of " + num1 + " and " + num2 + " is " + num2; 
+    }
+    return "These numbers are equal";
+}
+
 
 
 // 2) Write a function named isEven using  for loop that 
@@ -10,10 +20,34 @@
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 
+function isEven(x, y) {
+    var arrayF=[x];
+    var arrayI=[];
+    if ((arrayF[0])%2===0) {
+        arrayI[0]=arrayF[0];
+    }
+    else {arrayI[0]=arrayF[0]+1}
+    for(var i=0;i<(y/2);i++) {
+       arrayI[i]=arrayI[0]+2;
+    }
+    return arrayI;
+} 
 
 //3) write a function named sum that 
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
+
+function sum(x, y) {
+  var total=x;
+  var i=0;
+  while (i<=y) {
+      total= total+ 1;
+      i++;
+  }
+   
+  return total;
+
+}
 
 
 //4) Write a function named factorial that 
