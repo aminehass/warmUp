@@ -14,28 +14,28 @@ function greatNum(x, y) {
 // -  iterate from x to y.
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
-    function isEven(x, y) {
-        var arr=[]
-        for (let i = x; i < array.length; i++) {
-            i<=y
-            arr2===array[i]%2
-            arr=arr+(arr2)  
-        } return arr;  
+function isEven(x, y) {
+    var array=[]
+    for (i=x;i<=y;i++){
+        if(i%2===0){
+            array.push(i);
         }
-   
+    }
+    return array;
+}
 
 
 
 //3) write a function named sum that 
 // - Use a while loop to add up the numbers from x to y.
 // ex sum(1,5) => 15
-function sum(x, y) {
-    var i=0 
-    arr=[x,y]
-    while (i<arr.length) {
-        i=i+1
-        
-    }    
+function sum(x, y) { 
+    var total = 0 
+    while (x<=y) {
+        total=total+x
+        x++
+    }
+    return total;
 }
 
 //4) Write a function named factorial that 
@@ -43,7 +43,13 @@ function sum(x, y) {
 // -  the factorial of a non-negative integer n, denoted by n!, is the product of all positive integers less than or equal to n
 // - 5! = 5*4*3*2*1 = 120
 // ex : factorial(5) => 120 
-
+var total=1
+function factorial(number) {
+    if(number>0){
+        total= number * factorial(number-1)
+    }
+    return total;
+}
 
 //5) write a function named decimals
 //- the function will format a number up to specified decimal places
