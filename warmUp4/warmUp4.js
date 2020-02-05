@@ -2,9 +2,7 @@
 // 2-complete the following color function in which returns true if type of the input is string and returns
 // 	false otherwise.
 
-	function typeFunc(value){
 
-	}
 // 3-Write a JavaScript function that accepts a number as a parameter and check if the number is prime or not.
 // 4-write a function that accepts two numbers as parameters and returns true if the two parameters have the same value , false if not
 function myTrueFun(){
@@ -12,9 +10,9 @@ function myTrueFun(){
 }
 
 function typeFunc(value){
-	if ((value)==="str")
+	if (typeof value=== "string")
 	{
-	   console.log(true)
+	return (true)
     }
 	else return (false)
 	
@@ -36,4 +34,3 @@ function value(num1,num2){
 		console.log (true)
 	}else
 	return false 
-}
