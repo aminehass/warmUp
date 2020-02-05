@@ -32,5 +32,7 @@ function prime(num){
 function value(num1,num2){
 	if(num1===num2){
 		console.log (true)
-	}else
-	return false 
+	} else
+	     return false 
+}
+
