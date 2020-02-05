@@ -5,6 +5,7 @@
 
 // your code is here
 
+<<<<<<< HEAD
 x = "belgacem" + "zabbes";
 console.log(x);
 
@@ -47,4 +48,6 @@ indexOf(arr,arr1[0]);
 
 
 
+=======
+>>>>>>> 01c877036a1e0d6c8a3d36f209116fb35292c680
 
