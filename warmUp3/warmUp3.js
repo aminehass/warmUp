@@ -20,18 +20,15 @@ function greaterNum(num1, num2) {
 // -  return array contain the even values,
 //  ex:  isEven(1,10) => [2,4,6,8,10]
 
-function isEven(x, y) {
-    var arrayF=[x];
-    var arrayI=[];
-    if ((arrayF[0])%2===0) {
-        arrayI[0]=arrayF[0];
-    }
-    else {arrayI[0]=arrayF[0]+1}
-    for(var i=0;i<(y/2);i++) {
-       arrayI[i]=arrayI[0]+2;
-    }
-    return arrayI;
-} 
+function isEven(x,y) {
+	var arrayXY=[];
+	for (var i=x;i<y+1;i++){
+		if (i%2==0){
+			arrayXY.push(i)
+		}
+	}
+	return arrayXY;
+}
 
 //3) write a function named sum that 
 // - Use a while loop to add up the numbers from x to y.
