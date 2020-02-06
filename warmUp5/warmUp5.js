@@ -7,3 +7,29 @@
 //    helloWorld('') ==> 'Hello, World'        
 //3- write a function to Reverse an array without use array.reverse() method:
 // ex: reverseArray([1,2,3]) ==> [3,2,1]
+5<7
+function helloWorld(str){
+	if (str==="fr"){
+	console.log (" Bonjour tout le monde")
+	}
+	if (str==="es"){
+	 console.log ("Hola, Mundo")
+   }
+ else return ("Hello, World")
+ 
+ }
+
+
+
+
+
+ function reverse(array){
+	var arr=[]
+	for (var i=array.length-1;i>=0; i--){
+		arr.push(array[i])
+	};
+	return arr
+    };
+	 
+}
+
