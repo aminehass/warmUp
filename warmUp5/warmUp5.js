@@ -10,10 +10,10 @@
 //    helloWorld('') ==> 'Hello, World' 
 
  function helloWorld (lang) {
-     if (lang==='fr'|| lang==='FR'){
+     if (lang==='fr'|| lang==='FR'||lang==='Fr') {
          return 'Bonjour tout le monde'
      }
-     else if (lang==='es'|| lang==='ES'){
+     else if (lang==='es'|| lang==='ES'||lang==='Es') {
          return 'Hola, Mundo'
      }
         return 'Hello, World'
@@ -25,7 +25,7 @@
 
 function reverseArray ( arr ) {
     var arr1 = []
-     for (var i = arr.length-1; i>=0; i--){
+     for (var i = arr.length-1; i>=0; i--) {
     arr1.push(arr[i]);
      } 
     return arr1;
