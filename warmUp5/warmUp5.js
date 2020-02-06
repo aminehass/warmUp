@@ -20,6 +20,7 @@ function helloWorld(lang) {
     } else if (lang === 'ar'){
           return 'مرحبا بالعالم';
     }
+    return 'Hello, World';
 }
 
 //3- write a function to Reverse an array without use array.reverse() method:
