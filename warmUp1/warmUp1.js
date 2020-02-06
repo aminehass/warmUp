@@ -10,6 +10,11 @@ Partner={
 //q2
 function mult(n){
 
+
+// your code is here
+
+
+
 if(n%3===0){
 	return true;
 }
@@ -30,3 +35,4 @@ function ageSecond(year){
 	return x
 
 }
+
