@@ -18,3 +18,24 @@ function objLength(obj) {
 function objSort(obj) {
   // your code here...
 }
+
+
+function objKey(obj) {
+	
+	return (Object.keys(obj))function objKey(obj) {
+	
+    return (Object.keys(obj))
+  
+  }
+  function objLength(obj) {
+    return Object.length
+  }
+  
+  function objSort(obj) {
+
+}
+function objLength(obj) {
+	return Object.length
+}
+
+function objSort(obj) {
