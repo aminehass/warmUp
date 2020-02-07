@@ -3,6 +3,7 @@
 // 3-calculate the average age of the follwing ages [13,14,13,15,16,17,19,13,16,15]
 // 4-calculate your age in seconds.
 
+<<<<<<< HEAD
 
 // your code is here
 function combine(firstName,lastName){
@@ -47,3 +48,8 @@ function ageInSec(age,dayOfBirth,monthOfBirth,yearOfBirth){
        return days+yearsindays+monthsindays;
 }
 //ageInSec(19) ==> 599184000
+=======
+// your code is here
+
+
+>>>>>>> 324f201c02ca2d6c79684a8829696dd310627957
