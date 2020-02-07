@@ -22,20 +22,14 @@ function objSort(obj) {
 
 function objKey(obj) {
 	
-	return (Object.keys(obj))function objKey(obj) {
-	
-    return (Object.keys(obj))
+	return (Object.keys(obj))
+
   
   }
+
   function objLength(obj) {
     return Object.length
   }
   
-  function objSort(obj) {
-
-}
-function objLength(obj) {
-	return Object.length
-}
 
 function objSort(obj) {
