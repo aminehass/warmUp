@@ -3,6 +3,11 @@
 
 function objKey(obj) {
   // your code here...
+  var acc=[];
+  for (var key in obj){
+    acc.push(key);
+  }
+  return acc;
 }
 
 // 2 - Write a function named objLength to get the length of a JavaScript object
@@ -10,6 +15,12 @@ function objKey(obj) {
 
 function objLength(obj) {
   // your code here...
+  var result =0;
+  for(var key in obj){
+    result+=1;
+  }
+  return result;
+  
 }
 
 // 3 - Write a function named objSort to sort an array of JavaScript objects based on the id
@@ -17,4 +28,12 @@ function objLength(obj) {
 
 function objSort(obj) {
   // your code here...
+  var acc=[];
+  for( var i=1; i<obj.length; i++){
+    if (obj[i-1].id>=obj[i].id){
+      acc.push(obj[i]);
+    }
+
+  }
+  return acc;
 }
