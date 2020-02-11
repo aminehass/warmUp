@@ -17,4 +17,7 @@ function helloWorld(str) {
     } else return 'Please choose one of these langages: fr, es, en'
 }        
 //3- write a function to Reverse an array without use array.reverse() method:
-// ex: reverseArray([1,2,3]) ==> [3,2,1]
+// ex: reverseArray([1,2,3]) ==> [3,2,1] 
+function reverseArray(arr) {
+    return arr.reverse();
+}
