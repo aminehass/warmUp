@@ -6,8 +6,8 @@
         if (b == 0) {
             return a;
         }
-    return gcd(b, a % b);
-};
+    return GCD(b, a % b);
+}
 //                          Q2
 function sum(x,y){
     if(y>0){
