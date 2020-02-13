@@ -28,7 +28,7 @@ function reverseString(string){
 
 // 2-write a function that takes array of strings and returns an array of the strings that have the same length
 // example :  ['hi','hello','welcome','hy'] == > ["hi","hy"]
-//  it's not finished :
+//  it's not finished ; not working :
 function sameLength(array){
   var arr=[];
   var i =array.length;
