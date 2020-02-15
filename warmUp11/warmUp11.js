@@ -64,12 +64,14 @@ function nbOfMale(array, str){
   return result;
 }
 
-function searchMates(array,query){
-  var result=[];
-  each(array, function(value,key){
-    if(displayMate(value).includes(query)){
-      result.push(value)
-    }
-  })
-  return result
-}
+
+// not working properly
+// function searchMates(array,query){
+//   var result=[];
+//   each(array, function(value,key){
+//     if(displayMate(value).includes(query)){
+//       result.push(value)
+//     }
+//   })
+//   return result
+// }
