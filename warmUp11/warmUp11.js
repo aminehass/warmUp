@@ -9,3 +9,7 @@
     • Write a function searchMates that, given a query and an array of Mates,
       searches the array of mates for "matching" mate. You will decide what way you want to write your search algorithm.
 */
+
+
+
+//problem with PC
