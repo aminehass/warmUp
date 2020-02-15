@@ -76,5 +76,5 @@ function findMates(array, query){
   return filter(array, function(element, i){
     return element.name===query || element.age===query || element.profession===query 
     || element.gender===query || element.race===query;
-  })
+  });
 }
