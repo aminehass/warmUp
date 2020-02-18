@@ -19,7 +19,7 @@ function factoryClassMates(firstname, lastname, gender, attributes) {
   };
 }
 
-var classMates = [{friend1:factoryClassMates("Amir",  "Ben Youssef",  "male",   "Hard worker")},
+var classMates = [{friend1: factoryClassMates("Amir",  "Ben Youssef",  "male",   "Hard worker")},
    {friend2: factoryClassMates("Aymen",  "Yaich",  "Male",   "Cocky")},
    {friend3: factoryClassMates ("Wala",  "Abdaoui", "Male",   "Courageous")},
    {friend4: factoryClassMates("Afif",  "Rakrouki", "Male",   "Funny")},
@@ -27,7 +27,7 @@ var classMates = [{friend1:factoryClassMates("Amir",  "Ben Youssef",  "male",   
    {friend6: factoryClassMates("Siwar",  "Hkimi",  "female",   "Good at solving problems")}
 ]
 
-
 function displayFriend(mate) {
   return mate. Firstname + ' ' + mate.Lastname + ' ' + mate.Gender + ' ' + mate.Attributes
 }
+
