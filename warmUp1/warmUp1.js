@@ -10,7 +10,7 @@ var PartnerLastName= "abdaoui"
 var myPartner= PartnerFirstName + PartnerLastName;
 2-
 function multiple3(num){
-    if (num%2===0){
+    if (num%3===0){
         return true;
     }return false;
 }
