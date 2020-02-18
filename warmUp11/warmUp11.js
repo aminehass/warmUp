@@ -11,11 +11,11 @@
 */
 
 var classMates = [
-  { name: { first: 'Houssem', middle: 'Eddine', last: 'Abedelli' }, age: 33 },
-  { name: { first: 'Taha', last: 'Khelfa' }, age: 39 },
-  { name: { first: 'Firas', last: 'Mrad' }, age: 24 },
-  { name: { first: 'Ali', last: 'Soudani' }, age: 28 },
-  { name: { first: 'Wala', last: 'Abdellaoui' }, age: 29 }
+  { name: { first: 'Houssem', middle: 'Eddine', last: 'Abedelli', }, age: 33, gender: "man" },
+  { name: { first: 'Taha', last: 'Khelfa' }, age: 39, gender: "man" },
+  { name: { first: 'Firas', last: 'Mrad' }, age: 24, gender: "man" },
+  { name: { first: 'Ali', last: 'Soudani' }, age: 28, gender: "man" },
+  { name: { first: 'Wala', last: 'Abdellaoui' }, age: 29, gender: "man" }
 ];
 
 var array = [classMates];
@@ -29,5 +29,9 @@ function displayFriends(object) {
 function addFriends(object, add) {
   return Object.push(add);
 }
+
+
+
+
 
 
