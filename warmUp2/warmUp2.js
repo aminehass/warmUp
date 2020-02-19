@@ -4,5 +4,11 @@
 
 // 3-complete the following function that Convert Fahrenheit to Celsius if the module for converting is
 // 	(5/9) * (fahrenheit-32);
+function toCelsius(fahrenheit){
+    return (5/9) * (fahrenheit-32);
+}
 
 // 4-Define a function named "sqArea", and make it display square area if you knew the length of its side.
+function sqArea(x){
+return x^2;
+}

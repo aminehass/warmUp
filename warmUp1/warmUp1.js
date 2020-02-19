@@ -4,3 +4,37 @@
 // 4-calculate your age in seconds.
 
 // your code is here
+
+//=========== 1 ============
+
+var partner = "wala" + "  " + "abdaoui";
+
+//=========== 2 ============
+/*
+multipleOfThree = [3,6,9];
+number = [];
+vari=0;
+if (number[i]+number[i+1]
+*/
+//=========== 3 ============
+
+function average (array){
+   var total=0
+    for(i=0;i<array.length;i=i+1){
+      total= total+array[i];
+    }
+    return total / array.length; 
+}git 
+
+ //=========== 4 ============
+
+ var myAge ={
+    year: 365,
+    day:24,
+    hour:60,
+    minute:60,
+
+
+ }
+
+ /////////
